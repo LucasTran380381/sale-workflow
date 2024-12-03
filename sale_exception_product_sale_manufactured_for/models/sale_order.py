@@ -24,7 +24,8 @@ class SaleOrder(models.Model):
             SELECT rel.product_id, ARRAY_AGG(rel.partner_id)
             FROM sale_order_line sol
                 JOIN product_product prod ON (sol.product_id = prod.id)
-                JOIN product_product_manuf_for_partner_rel rel ON (rel.product_id = prod.id)
+                JOIN product_product_manuf_for_partner_rel rel
+                ON (rel.product_id = prod.id)
             WHERE sol.display_type IS NULL
                 AND sol.order_id = %s
             GROUP BY rel.product_id
