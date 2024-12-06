@@ -4,3 +4,5 @@
 - Tharathip Chaweewongphan \<<tharathipc@ecosoft.co.th>\>
 - [APSL](https://apsl.tech):
   - Antoni Marroig  \<<amarroig@apsl.net>\>
+- [Trobz](https://www.trobz.com):
+  - Nhan Tran \<<nhant@trobz.com>\>

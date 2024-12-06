@@ -12,6 +12,4 @@ class SaleOrder(models.Model):
         comodel_name="res.partner",
         string="Customer Entity",
         related="partner_id.commercial_partner_id",
-        store=True,
-        index=True,
     )
