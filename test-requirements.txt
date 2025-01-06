@@ -1,0 +1,2 @@
+odoo-addon-product_sale_manufactured_for @ git+https://github.com/OCA/product-attribute.git@refs/pull/1801/head#subdirectory=product_sale_manufactured_for
+odoo-addon-sale_exception @ git+https://github.com/OCA/sale-workflow.git@refs/pull/3359/head#subdirectory=sale_exception
